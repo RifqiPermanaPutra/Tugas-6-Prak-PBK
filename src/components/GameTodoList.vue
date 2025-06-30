@@ -52,7 +52,7 @@
 
 <script setup>
 import { reactive } from 'vue';
-import { useGameTodoStore } from '../stores/gameTodoStore'; // Sesuaikan path
+import { useGameTodoStore } from '../stores/gameTodoStore'; 
 
 const store = useGameTodoStore();
 
@@ -72,15 +72,15 @@ const handleAddTask = () => {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* REVISED COLOR PALETTE FOR BETTER VISIBILITY */
+
 :root {
-  --bg-primary: #ffffff;       /* Dark background */
-  --bg-secondary: #f2f3f5;     /* Slightly lighter dark for main container */
-  --bg-card: #4A5568;          /* Lighter grey for cards and inputs */
-  --text-primary: #EDF2F7;     /* Off-white for primary text */
-  --text-secondary: #A0AEC0;   /* Grey for secondary text */
-  --accent-primary: #4299E1;   /* Brighter blue for accents */
-  --accent-secondary: #63B3ED; /* Lighter blue for hover */
+  --bg-primary: #ffffff;       
+  --bg-secondary: #f2f3f5;     
+  --bg-card: #4A5568;          
+  --text-primary: #EDF2F7;    
+  --text-secondary: #A0AEC0;   
+  --accent-primary: #4299E1;   
+  --accent-secondary: #63B3ED; 
   --danger: #E53E3E;
   --finished-text: #718096;
 }
@@ -89,12 +89,12 @@ const handleAddTask = () => {
   max-width: 700px;
   margin: 50px auto;
   padding: 2rem;
-  background-color:#ffffff; /* Using a solid, dark color */
+  background-color:#ffffff; 
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   font-family: 'Poppins', sans-serif;
   color: var(--text-primary);
-  border: 1px solid #f8faff; /* Border that matches card background */
+  border: 1px solid #f8faff; 
 }
 
 .app-header {
@@ -128,7 +128,7 @@ const handleAddTask = () => {
 .task-form input {
   width: 100%;
   padding: 14px 18px;
-  background-color: var(--bg-card); /* Using a more solid color */
+  background-color: var(--bg-card); 
   border: 1px solid #6182bd;
   border-radius: 8px;
   color: var(--text-primary);
@@ -173,7 +173,7 @@ const handleAddTask = () => {
     text-align: center;
     margin-bottom: 1.5rem;
     color: var(--text-secondary);
-    background-color: #e8e9eb; /* Darker background for contrast */
+    background-color: #e8e9eb; 
     padding: 0.75rem;
     border-radius: 8px;
 }
@@ -190,7 +190,7 @@ const handleAddTask = () => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #2c313d; /* Solid background for readability */
+  background-color: #2c313d; 
   color: #a9071a;
   padding: 1rem 1.5rem;
   border-radius: 12px;
